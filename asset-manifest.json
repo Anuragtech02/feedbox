@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/sgdream/static/css/main.3a4d982c.chunk.css",
-    "main.js": "/sgdream/static/js/main.b64f2985.chunk.js",
-    "main.js.map": "/sgdream/static/js/main.b64f2985.chunk.js.map",
+    "main.css": "/sgdream/static/css/main.e8437a94.chunk.css",
+    "main.js": "/sgdream/static/js/main.71bd1c8e.chunk.js",
+    "main.js.map": "/sgdream/static/js/main.71bd1c8e.chunk.js.map",
     "runtime-main.js": "/sgdream/static/js/runtime-main.e1331e1d.js",
     "runtime-main.js.map": "/sgdream/static/js/runtime-main.e1331e1d.js.map",
-    "static/js/2.7df7f9f5.chunk.js": "/sgdream/static/js/2.7df7f9f5.chunk.js",
-    "static/js/2.7df7f9f5.chunk.js.map": "/sgdream/static/js/2.7df7f9f5.chunk.js.map",
+    "static/css/2.fffc9a5f.chunk.css": "/sgdream/static/css/2.fffc9a5f.chunk.css",
+    "static/js/2.24bd0995.chunk.js": "/sgdream/static/js/2.24bd0995.chunk.js",
+    "static/js/2.24bd0995.chunk.js.map": "/sgdream/static/js/2.24bd0995.chunk.js.map",
     "index.html": "/sgdream/index.html",
-    "static/css/main.3a4d982c.chunk.css.map": "/sgdream/static/css/main.3a4d982c.chunk.css.map",
-    "static/js/2.7df7f9f5.chunk.js.LICENSE.txt": "/sgdream/static/js/2.7df7f9f5.chunk.js.LICENSE.txt",
+    "static/css/2.fffc9a5f.chunk.css.map": "/sgdream/static/css/2.fffc9a5f.chunk.css.map",
+    "static/css/main.e8437a94.chunk.css.map": "/sgdream/static/css/main.e8437a94.chunk.css.map",
+    "static/js/2.24bd0995.chunk.js.LICENSE.txt": "/sgdream/static/js/2.24bd0995.chunk.js.LICENSE.txt",
     "static/media/branding.cd51c873.png": "/sgdream/static/media/branding.cd51c873.png",
     "static/media/h1-img-1.f9512d00.png": "/sgdream/static/media/h1-img-1.f9512d00.png",
     "static/media/logo-sgmedia.6ab25bce.png": "/sgdream/static/media/logo-sgmedia.6ab25bce.png",
     "static/media/packaging.3a36d0c9.jpg": "/sgdream/static/media/packaging.3a36d0c9.jpg",
     "static/media/port-1-img-1.5972939d.jpg": "/sgdream/static/media/port-1-img-1.5972939d.jpg",
     "static/media/port-1-img-2.d8c63b60.jpg": "/sgdream/static/media/port-1-img-2.d8c63b60.jpg",
-    "static/media/port-1-img-3.9e80f0b9.jpg": "/sgdream/static/media/port-1-img-3.9e80f0b9.jpg"
+    "static/media/port-1-img-3.9e80f0b9.jpg": "/sgdream/static/media/port-1-img-3.9e80f0b9.jpg",
+    "static/media/slick-theme.css": "/sgdream/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.e1331e1d.js",
-    "static/js/2.7df7f9f5.chunk.js",
-    "static/css/main.3a4d982c.chunk.css",
-    "static/js/main.b64f2985.chunk.js"
+    "static/css/2.fffc9a5f.chunk.css",
+    "static/js/2.24bd0995.chunk.js",
+    "static/css/main.e8437a94.chunk.css",
+    "static/js/main.71bd1c8e.chunk.js"
   ]
 }
