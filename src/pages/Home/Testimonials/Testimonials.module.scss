@@ -1,0 +1,81 @@
+@import "../../../utils/common.scss";
+
+.container {
+  position: relative;
+  padding: 5rem 0;
+  .slider {
+    width: 80%;
+    margin: 0 auto;
+    button {
+      display: none !important;
+    }
+  }
+  .testimonial {
+    text-align: center;
+    position: relative;
+    span:first-child {
+      font-size: 10rem;
+      line-height: normal;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      font-style: italic;
+    }
+    .content {
+      margin-top: 8rem;
+      h4 {
+        margin: 0.5rem 0;
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  .arrowLeft,
+  .arrowRight {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translate(-1rem, -50%) rotate(180deg);
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    transition-property: left right;
+    &:hover {
+      left: 0.5rem;
+    }
+  }
+  .arrowRight {
+    left: auto;
+    right: 1rem;
+    transform: translate(1rem, -50%) rotate(0deg);
+    &:hover {
+      left: auto;
+      right: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    padding: 2rem 0;
+    padding-top: 0;
+  }
+  @media screen and (max-width: 500px) {
+    .slider {
+      width: 100%;
+    }
+    .arrowLeft,
+    .arrowRight {
+      display: none;
+    }
+    .testimonial {
+      span:first-child {
+        left: 40%;
+        transform: translate(-40%, 0);
+      }
+      .content {
+        p {
+          word-wrap: break-word;
+        }
+      }
+    }
+  }
+}

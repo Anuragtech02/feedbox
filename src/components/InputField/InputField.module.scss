@@ -1,0 +1,11 @@
+@import "../../utils/common.scss";
+
+.inputField,
+.inputArea {
+  border: none;
+  outline: none;
+  padding: 1.2em 1em;
+  border: 1px solid var(--clr-txt-dark);
+}
+.inputArea {
+}

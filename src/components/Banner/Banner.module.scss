@@ -1,0 +1,34 @@
+@import "../../utils/common.scss";
+
+.container {
+  width: 100%;
+  min-height: 300px;
+  height: 30vh;
+  position: relative;
+  @extend .flexRow;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  h2 {
+    text-transform: capitalize;
+    z-index: 2;
+    color: var(--clr-txt-dark);
+  }
+}

@@ -1,0 +1,18 @@
+.flexRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol {
+  @extend .flexRow;
+  flex-direction: column;
+}
+
+.noDecoration,
+.noDecoration a {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}

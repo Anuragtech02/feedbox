@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, "Poppins", "Open Sans", sans-serif;
+}
+
+:root {
+  // Colors
+  --clr-primary: #000;
+  --clr-txt-dark: rgb(29, 29, 29);
+  --clr-txt-light: rgb(250, 250, 250);
+
+  //sizes
+  --fixed-width: 65vw;
+
+  @media screen and (max-width: 1400px) {
+    --fixed-width: 75vw;
+  }
+
+  @media screen and (max-width: 1250px) {
+    --fixed-width: 80vw;
+  }
+  @media screen and (max-width: 500px) {
+    --fixed-width: 90vw;
+  }
+}
+html {
+  ::selection {
+    background: var(--clr-primary);
+    color: var(--clr-txt-light);
+  }
+  overflow-x: hidden;
+}
+body {
+  font-size: 16px;
+  width: 100vw;
+  position: relative;
+  overflow-x: hidden !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span {
+  color: var(--clr-txt-dark);
+}
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.7rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.3rem;
+}
+p {
+  font-size: 1rem;
+}
+.container {
+  overflow-x: hidden;
+  width: 100vw;
+}

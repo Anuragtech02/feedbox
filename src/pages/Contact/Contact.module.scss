@@ -1,0 +1,68 @@
+@import "../../utils/common.scss";
+
+.container {
+  margin-top: 7rem;
+}
+.detailsForm {
+  width: var(--fixed-width);
+  margin: 7rem auto;
+  .inlineFields {
+    @extend .flexRow;
+    justify-content: space-between;
+    input {
+      width: 49%;
+    }
+  }
+  .contactForm {
+    .messageBox {
+      //   @extend .flexRow;
+      width: 100%;
+      margin-top: 1.5rem;
+    }
+    .submitBtn {
+      margin-top: 1.5rem;
+    }
+  }
+
+  .details {
+    p {
+      margin-top: 1.5rem;
+    }
+    .contactInfo {
+      margin-top: 2rem;
+      p {
+        margin-top: 0;
+      }
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .socialMedia {
+      @extend .flexRow;
+      width: fit-content;
+      margin-top: 0.5rem;
+      margin-left: -1rem;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    margin: 3rem auto;
+    .contactForm {
+      .submitBtn {
+        width: 100%;
+      }
+    }
+    .inlineFields {
+      flex-direction: column;
+      input {
+        width: 100%;
+        &:nth-child(2) {
+          margin-top: 1.5rem;
+        }
+      }
+    }
+  }
+}

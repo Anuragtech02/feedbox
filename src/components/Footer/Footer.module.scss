@@ -1,0 +1,36 @@
+@import "../../utils/common.scss";
+
+.container {
+  @extend .flexCol;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background-color: var(--clr-primary);
+  padding: 3em 0;
+  .logo {
+    min-width: 150px;
+    max-width: 200px;
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  span,
+  p {
+    color: var(--clr-txt-light);
+    font-size: 1rem;
+  }
+  p {
+    margin: 1.5em auto;
+    width: 30%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+  }
+
+  @media screen and (max-width: 960px) {
+    p {
+      width: 80%;
+    }
+  }
+}

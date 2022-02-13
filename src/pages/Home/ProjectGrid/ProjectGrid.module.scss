@@ -1,0 +1,55 @@
+@import "../../../utils/common.scss";
+
+.container {
+  margin: 50px auto;
+
+  .projectCard {
+    min-height: 350px;
+    height: 40vh;
+    position: relative;
+    @extend .flexCol;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 0.3s ease-in;
+      transform-origin: center;
+    }
+    .content {
+      z-index: 2;
+      h3,
+      p {
+        text-align: center;
+        color: var(--clr-txt-light);
+      }
+      opacity: 0;
+      transition: all 0.3s ease-out;
+      transition-property: background-color opacity;
+    }
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: var(--clr-primary);
+      opacity: 0;
+      transition: all 0.3s ease-out;
+      transition-property: background-color opacity;
+      z-index: 1;
+    }
+    &:hover {
+      img {
+        width: 105%;
+        height: 105%;
+      }
+      .overlay {
+        opacity: 1;
+      }
+      .content {
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import "../../../utils/common.scss";
+
+.container {
+  overflow: hidden;
+  .categoryItem {
+    @extend .flexRow;
+    margin: 2em 0;
+    img {
+      max-width: 850px;
+      width: 75%;
+    }
+  }
+  .itemLeft {
+    justify-content: flex-start;
+  }
+  .itemRight {
+    justify-content: flex-end;
+  }
+
+  @media screen and (max-width: 960px) {
+    .itemLeft,
+    .itemRight {
+      justify-content: center;
+      img {
+        width: 100%;
+      }
+    }
+    .categoryItem {
+      margin: 10rem 0;
+    }
+  }
+}
