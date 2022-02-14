@@ -51,7 +51,7 @@ const Home = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:8000").then((res) => {
+    axios.get("https://feedbox-notion-server.herokuapp.com/").then((res) => {
       console.log({ res });
       setData(res.data);
     });
