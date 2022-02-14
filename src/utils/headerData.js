@@ -8,6 +8,10 @@ export const navItems = [
     path: "/about",
   },
   {
+    title: "Club",
+    path: "/club",
+  },
+  {
     title: "Portfolio",
     path: "/portfolio",
   },

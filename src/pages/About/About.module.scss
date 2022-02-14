@@ -1,0 +1,8 @@
+@import "../../utils/common.scss";
+
+.container {
+  main {
+    min-height: 300px;
+    @extend .flexRow;
+  }
+}
